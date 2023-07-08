@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kotlinegitim.kotlin_final.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_latestone"
+        android:name="com.kotlinegitim.kotlin_final.ui.LatestTechOne.LatestTechOneFragment"
+        android:label="@string/menu_latest1"
+        tools:layout="@layout/fragment_latest1" />
+
+    <fragment
+        android:id="@+id/nav_latesttwo"
+        android:name="com.kotlinegitim.kotlin_final.ui.LatestTechTwo.LatestTechTwoFragment"
+        android:label="@string/menu_latest2"
+        tools:layout="@layout/fragment_latest2" />
+
+    <fragment
+        android:id="@+id/nav_latestthree"
+        android:name="com.kotlinegitim.kotlin_final.ui.LatestTechThree.LatestTechThreeFragment"
+        android:label="@string/menu_latest3"
+        tools:layout="@layout/fragment_latest3" />
+</navigation>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">kotlin_final</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tech Quiz</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_latest1">Latest Technology Test 1 </string>
+    <string name="menu_latest2">Latest Technology Test 2 </string>
+    <string name="menu_latest3">Programming Languange </string>
+
+
+    <string name="introduction">This app includes three tests and these tests are about latest technologies and programming languanges. With this app, may some people can desire to learn one of the these topics. Enjoy when you solving the tests ! Do not forget, all tests have 50 questions !</string>
+    <string name="about1">Latest Technology test1: 1-10 questions -> Virtual Reality, 11-20 questions -> Augmented Reality, 21-30 -> Networking, 31-40 -> 5g Network, 41-50 -> Microsoft Azure</string>
+    <string name="about2">Latest Technology test2: 1-10 questions -> Data Science, 11-20 questions -> Machine Learning, 21-30 -> Artificial Intelligence, 31-40 -> Deep Learning, 41-50 -> Block Chain"</string>
+    <string name="about3">Programming Languange: 1-10 questions -> Swift, 11-20 questions -> Android, 21-30 -> Dot Net, 31-40 -> C Sharp, 41-50 -> Ado Dot Net</string>
+    <string name="about4">We will add more questions as soon. Wait the new questions! </string>
+    <string name="point">0</string>
+</resources>
