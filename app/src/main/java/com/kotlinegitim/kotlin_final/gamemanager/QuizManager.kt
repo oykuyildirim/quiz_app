@@ -109,11 +109,8 @@ class QuizManager {
                     R.layout.toast_custom_layout,"True Choice !",
                     R.drawable.resource_true ).showToast()
 
-                android.os.Handler(Looper.getMainLooper()).postDelayed({
 
-                    setQuestions()
-
-                }, 1000)
+                setQuestions()
                 score += point
                 ScoreText.text = score.toString()
 
@@ -124,13 +121,11 @@ class QuizManager {
                 questions_answers.removeAt(random_question)
                 ToastCustomAdaptor(act,
                     R.layout.toast_custom_layout,"False Choice !",
-                    R.drawable.resource_false
-                ).showToast()
-                android.os.Handler(Looper.getMainLooper()).postDelayed({
+                    R.drawable.resource_false).showToast()
 
                     setQuestions()
 
-                }, 1000)
+
 
 
 

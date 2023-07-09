@@ -34,7 +34,7 @@ class ToastCustomAdaptor{
         image.setImageResource(imageid)
         val myToast = Toast(act)
         myToast.duration = Toast.LENGTH_SHORT
-        myToast.setGravity(Gravity.BOTTOM,0,0);
+        myToast.setGravity(Gravity.TOP,120,150);
         myToast.view = layout
         myToast.show()
     }
